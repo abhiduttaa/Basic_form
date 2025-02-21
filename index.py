@@ -1,6 +1,11 @@
 import pandas as pd
-df = {'roll':1,
-      "class":"2nd year"
+
+data = {
+  "calories": [420, 380, 390],
+  "duration": [50, 40, 45]
 }
-d= df.dataFrame()
-print(d)
+
+#load data into a DataFrame object:
+df = pd.DataFrame(data)
+
+print(df) 
